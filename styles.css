@@ -1,0 +1,1042 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* .Home {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 5149px;
+    z-index: 282;
+}
+
+.Logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 5149px;
+    z-index: 281;
+} */
+
+.acrostia {
+    font-size: 50px;
+    font-family: "Damion";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 10;
+    top: -20px;
+    z-index: 280;
+}
+
+/* 
+.Navigation {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 5149px;
+    z-index: 278;
+} */
+
+.Home__Services__About__Work__Contacts {
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 3.333;
+    text-align: right;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    z-index: 277;
+}
+
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.active_home {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(116, 199, 213);
+    /* position: absolute; */
+    left: 821px;
+    top: -8px;
+    width: 100px;
+    height: 80px;
+    z-index: 276;
+}
+
+.active_services {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(223, 92, 100);
+    /* position: absolute; */
+    left: 935px;
+    top: 992px;
+    width: 100px;
+    height: 80px;
+    z-index: 251;
+}
+
+.active_about {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(145, 119, 142);
+    /* position: absolute; */
+    left: 1037px;
+    top: 1992px;
+    width: 100px;
+    height: 80px;
+    z-index: 203;
+}
+
+.active_work {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(161, 202, 108);
+    /* position: absolute; */
+    left: 1144px;
+    top: 2977px;
+    width: 100px;
+    height: 80px;
+    z-index: 114;
+}
+
+.active_contacts {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(130, 200, 189);
+    /* position: absolute; */
+    left: 1266px;
+    top: 4119px;
+    width: 100px;
+    height: 80px;
+    z-index: 39;
+}
+
+/* .top_shadow {
+    background-image: -moz-linear-gradient( 90deg, rgba(0, 0, 0, 0) 0%, rgba(22, 31, 40, 0.17) 17%, rgb(44, 62, 80) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(0, 0, 0, 0) 0%, rgba(22, 31, 40, 0.17) 17%, rgb(44, 62, 80) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(0, 0, 0, 0) 0%, rgba(22, 31, 40, 0.17) 17%, rgb(44, 62, 80) 100%);
+    opacity: 0.549;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 168px;
+    z-index: 275;
+} */
+
+.GOOD_IDEAS_comes_ {
+    font-size: 50px;
+    font-family: "Lato";
+    color: rgb(116, 199, 213);
+    line-height: 0.65;
+    float: left;
+    width: 50%;
+    text-align: right;
+    /* padding-right: 50%; */
+    /* position: absolute;
+    left: 446.937px;
+    top: 500.708px; */
+    z-index: 272;
+}
+
+.FIRST_ {
+    font-size: 80px;
+    font-family: "Lato";
+    font-weight: bold;
+    color: rgb(116, 199, 213);
+    line-height: 0.1;
+    float: right;
+    width: 50%;
+    text-align: left;
+    /* padding-left: 50%; */
+    /* -moz-transform: matrix( 1.98406747891284, 0, 0, 2.30801737161615, 0, 0);
+    -webkit-transform: matrix( 1.98406747891284, 0, 0, 2.30801737161615, 0, 0);
+    -ms-transform: matrix( 1.98406747891284, 0, 0, 2.30801737161615, 0, 0);
+    position: absolute;
+    left: 933px;
+    top: 472px;
+    z-index: 271; */
+}
+
+/* .dot_links {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 5149px;
+    z-index: 270;
+} */
+
+.link_slide1 {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.502;
+    position: absolute;
+    left: 44%;
+    top: 889px;
+    width: 20px;
+    height: 20px;
+    z-index: 269;
+}
+
+.link_slide2 {
+    border-radius: 50%;
+    background-color: rgb(116, 199, 213);
+    position: absolute;
+    left: 49%;
+    top: 889px;
+    width: 20px;
+    height: 20px;
+    z-index: 268;
+}
+
+.link_slide3 {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.502;
+    position: absolute;
+    left: 54%;
+    top: 889px;
+    width: 20px;
+    height: 20px;
+    z-index: 267;
+}
+
+.arrow_left {
+    color: rgb(255, 255, 255);
+    opacity: 0.502;
+    position: absolute;
+    left: 7%;
+    top: 420px;
+    width: 34px;
+    height: 56px;
+    z-index: 265;
+}
+
+.arrow_right {
+    color: rgb(255, 255, 255);
+    opacity: 0.502;
+    position: absolute;
+    left: 93%;
+    top: 420px;
+    width: 34px;
+    height: 56px;
+    z-index: 264;
+}
+
+.Rounded_Rectangle_7 {
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.302;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    width: 50%;
+    height: 17%;
+    z-index: 263;
+}
+
+/* .Layer_2 {
+    background-image: url("Layer 2.png");
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 1600px;
+    height: 1210px;
+    background-repeat: no-repeat;
+    z-index: 261;
+} */
+
+.parallax {
+    background-image: url('Layer\ 2.png');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url('Layer\ 2.png');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('Layer\ 3.png');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url('Layer\ 6.png');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    background-image: url('Layer\ 14.png');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    background-image: url('Layer\ 24.png');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_bg {
+    background-color: rgb(44, 62, 80);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 1000px;
+    z-index: 260;
+}
+
+.services_bg {
+    background-color: rgb(178, 74, 80);
+    position: absolute;
+    left: 0px;
+    top: 1000px;
+    width: 1600px;
+    height: 1000px;
+    z-index: 212;
+}
+
+.about_bg {
+    background-color: rgb(102, 84, 100);
+    position: absolute;
+    left: 0px;
+    top: 2000px;
+    width: 1600px;
+    height: 986px;
+    z-index: 122;
+}
+
+.work_bg {
+    background-color: rgb(129, 162, 86);
+    position: absolute;
+    left: 0px;
+    top: 2985px;
+    width: 1600px;
+    height: 1149px;
+    z-index: 47;
+}
+
+.contacts_bg {
+    background-color: rgb(117, 180, 170);
+    position: absolute;
+    left: 0px;
+    top: 4131px;
+    width: 1600px;
+    height: 1018px;
+    z-index: 3;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+._Cras_commodo_mattis_justo_nec_lobortis__Nam_ut {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.9;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* position: absolute;
+    left: 250.07px;
+    top: 1334.835px;
+    width: 1032px;
+    height: 18px;
+    z-index: 248; */
+}
+
+.OUR_SERVICES {
+    font-size: 60px;
+    font-family: "Lato light";
+    color: rgb(255, 255, 255);
+    line-height: 0.967;
+    text-align: center;
+    padding-top: 150px;
+    /* text-align: right;
+    position: absolute;
+    left: 593px;
+    top: 1182.99px;
+    z-index: 247; */
+}
+
+.Cras_suscipit_porttitor_porttitor__Morbi_sit_am1 {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(255, 204, 207);
+    line-height: 1.714;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* position: absolute;
+    left: 249.875px;
+    top: 1342.485px;
+    width: 1053px;
+    height: 36px;
+    z-index: 246; */
+}
+
+.Block_bg {
+    border-radius: 5px;
+    background-color: rgb(200, 83, 90);
+    opacity: 0.8;
+    /* position: absolute; */
+    /* left: 14.5%; */
+    /* top: 1476px; */
+    width: 17%;
+    height: 400px;
+    z-index: 239;
+}
+
+.lightball {
+    color: rgb(223, 92, 100);
+    /* position: absolute; */
+    /* justify-content: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    /* left: 357px;
+    top: 1556px; */
+    width: 46px;
+    height: 69px;
+    z-index: 244;
+}
+
+.m_wand {
+    background-color: rgb(200, 83, 90);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    /* position: absolute;
+    left: 627px;
+    top: 1557px; */
+    width: 65px;
+    height: 65px;
+    z-index: 236;
+}
+
+.giars {
+    background-color: rgb(200, 83, 90);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    /* position: absolute;
+    left: 902px;
+    top: 1555px; */
+    width: 76px;
+    height: 70px;
+    z-index: 228;
+}
+
+.rocket {
+    background-color: rgb(200, 83, 90);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    /* position: absolute;
+    left: 1187px;
+    top: 1558px; */
+    width: 65px;
+    height: 64px;
+    z-index: 220;
+}
+
+.bg {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    /* position: absolute; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -95px;
+    /* justify-content: center; */
+    /* left: 320px;
+    top: 1530px; */
+    width: 120px;
+    height: 120px;
+    z-index: 241;
+}
+
+.countur {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -126.5px;
+    width: 134px;
+    height: 134px;
+    z-index: 240;
+}
+
+.Researching {
+    font-size: 25px;
+    font-family: "Lato light";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.933;
+    text-align: center;
+    /* position: absolute; */
+    left: 275px;
+    top: 1671.505px;
+    z-index: 242;
+}
+
+.Praesent_interdum_blandit_quam__Asunt_in_anim_u {
+    font-size: 14px;
+    font-family: "Lato light";
+    color: rgb(254, 254, 254);
+    line-height: 1.429;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    left: 274.594px; */
+    top: 1781.485px;
+    width: 209px;
+    height: 70px;
+    z-index: 243;
+}
+
+.Who_we_are___what_we_do {
+    font-size: 60px;
+    font-family: "Lato light";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.967;
+    text-align: center;
+    padding-top: 100px;
+    /* position: absolute;
+    left: 384.484px;
+    top: 2194.99px; */
+    z-index: 201;
+}
+
+.Cras_suscipit_porttitor_porttitor__Morbi_sit_am2 {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(230, 209, 227);
+    line-height: 1.714;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* position: absolute;
+    left: 249.875px;
+    top: 2302.485px;
+    width: 1053px;
+    height: 36px;
+    z-index: 200; */
+}
+
+.m_team_bg {
+    background-color: transparent;
+    background-image: url("m team bg.png");
+    border: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.32;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    left: 660px; */
+    /* top: 2375px; */
+    width: 276px;
+    height: 66px;
+    margin-top: 5%;
+    z-index: 197;
+}
+
+.Block_bg_about {
+    border-radius: 5px;
+    background-color: rgb(77, 63, 75);
+    opacity: 0.8;
+    /* position: absolute; */
+    /* left: 14.5%; */
+    /* top: 1476px; */
+    width: 17%;
+    height: 400px;
+    z-index: 239;
+}
+
+.User {
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -129px;
+    /* position: absolute;
+    left: 303px;
+    top: 2552px; */
+    /* width: 157px;
+    height: 160px; */
+    width: 119px;
+    height: 122px;
+    z-index: 193;
+}
+
+.countur_about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 134px;
+    height: 137px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 240;
+}
+
+.about_names {
+    font-size: 25px;
+    font-family: "Lato";
+    color: rgb(199, 182, 197);
+    text-transform: uppercase;
+    line-height: 2.32;
+    text-align: center;
+    /* position: absolute; */
+    left: 282.969px;
+    top: 2708px;
+    z-index: 195;
+}
+
+.about_active_names {
+    font-size: 25px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.32;
+    text-align: center;
+    /* position: absolute; */
+    left: 565.5px;
+    top: 2708px;
+    z-index: 177;
+}
+
+.about_fct {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(161, 202, 108);
+    line-height: 4.143;
+    text-align: center;
+    margin-top: -30px;
+    /* position: absolute;
+    left: 327.375px;
+    top: 2793.984px; */
+    z-index: 194;
+}
+
+.about_active_fct {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(255, 137, 115);
+    line-height: 4.143;
+    text-align: center;
+    margin-top: -30px;
+    /* position: absolute;
+    left: 614.781px;
+    top: 2794.484px; */
+    z-index: 176;
+}
+
+.social {
+    width: 181px;
+    height: 31px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.our_work {
+    font-size: 60px;
+    font-family: "Lato light";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.967;
+    text-align: center;
+    padding-top: 100px;
+    /* position: absolute;
+    left: 634px;
+    top: 3179.99px; */
+    z-index: 112;
+}
+
+.Cras_suscipit_porttitor_porttitor__Morbi_sit_am3 {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* position: absolute;
+    left: 249.875px;
+    top: 3287.485px;
+    width: 1053px;
+    height: 36px;
+    z-index: 111; */
+}
+
+.PORTFOLIO {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    /* position: absolute;
+    left: 267.453px;
+    top: 3397.5px; */
+    z-index: 105;
+}
+
+.All__Photography__Logo_design__Web_design {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* position: absolute;
+    left: 878.953px;
+    top: 3420.716px; */
+    z-index: 107;
+}
+
+.work_navigation {
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* border: 50px solid rgb(148, 185, 99) 50px; */
+    border: solid rgb(148, 185, 99);
+    border-width: 2px 0 2px 0;
+}
+
+.work_active {
+    border-radius: 4px;
+    background-color: rgb(245, 193, 73);
+    /* position: absolute;
+    left: 943px;
+    top: 3392px;
+    width: 110px;
+    height: 35px;
+    z-index: 106; */
+}
+
+/* .work_table{
+    padding-left: 100px; 
+    padding-right: 100px;
+    width: 100%;
+} */
+
+.gallery_wall {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 150px;
+}
+
+div.gallery {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 255px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(114, 114, 114);
+    text-transform: uppercase;
+    line-height: 4.143;
+}
+
+.Rectangle_3 {
+    background-color: rgb(104, 160, 151);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 7;
+}
+
+.social_contacts {
+    height: 40px;
+    /* position: absolute; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    z-index: 27;
+}
+
+.Address {
+    font-size: 30px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    /* position: absolute;
+    left: 256.601px;
+    top: 4591.029px; */
+    z-index: 29;
+}
+
+.Anhiora_comunication {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(192, 223, 218);
+    font-weight: bold;
+    line-height: 0.84;
+    text-align: left;
+    /* position: absolute;
+    left: 259.937px;
+    top: 4632.17px; */
+    z-index: 31;
+}
+
+.Sevenoaks_Rd_Sevenoa {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    text-align: left;
+    display: inline;
+    margin-left: 30px;
+    /* position: absolute;
+    left: 259.531px;
+    top: 4664.764px; */
+    z-index: 32;
+}
+
+.Sevenoaks_Rd_Sevenoa1 {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    text-align: left;
+    /* position: absolute;
+    left: 259.531px;
+    top: 4664.764px; */
+    z-index: 32;
+}
+
+._998_25698_569 {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(208, 239, 234);
+    line-height: 1.313;
+    text-align: left;
+    display: inline;
+    /* position: absolute;
+    left: 259.531px;
+    top: 4775.764px; */
+    z-index: 33;
+}
+
+.info {
+    padding-top: 20px;
+}
+
+.info_contacts {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.mapouter {
+    float: right;
+    margin-top: -150px;
+    margin-right: 50px;
+    position: relative;
+    text-align: right;
+    height: 150px;
+    width: 200px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 150px;
+    width: 200px;
+}
+
+.qa {
+    margin-top: -290px;
+    margin-right: 10%;
+    margin-left: 50%;
+}
+
+input[type=text] {
+    background-color: rgb(104, 160, 151);
+    color: rgb(130, 200, 189);
+    font-size: 16px;
+    font-family: "Lato";
+    line-height: 1.313;
+    width: 49.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(104, 160, 151);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    position: relative;
+    top: -140px;
+    background-color: rgb(104, 160, 151);
+    color: rgb(130, 200, 189);
+    font-size: 16px;
+    font-family: "Lato";
+    line-height: 1.313;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(104, 160, 151);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(130, 200, 189);
+    line-height: 1.313; 
+}
+
+input[type=submit] {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    position: relative;
+    top: -140px;
+    width: 50%;
+    font-size: 26px;
+    font-family: "Lato";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 0.808;
+    border-radius: 4px;
+    background-color: rgb(223, 92, 100);
+    box-shadow: inset 0px -4px 0px 0px rgba(178, 74, 80, 0.5);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text]:focus {
+    background-color: rgb(246, 246, 246);
+    color: rgb(181, 181, 181);
+    outline-width: 0;
+}
+
+textarea:focus {
+    background-color: rgb(246, 246, 246);
+    color: rgb(181, 181, 181);
+    outline-width: 0;
+}

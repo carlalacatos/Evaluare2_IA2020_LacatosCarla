@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <title>Acrostia</title>
+      <link rel="stylesheet" href="styles.css" />
+      <script src="myscript.js"></script>
+    </head>
+    <header>
+      <h1 class="acrostia">acrostia</h1>
+      <nav class="Home__Services__About__Work__Contacts">
+        <a
+          href="#home"
+          id="navHome"
+          onclick="getTo(this.id, window.location.href)"
+          >Home</a
+        >
+        <a
+          href="#services"
+          id="navServices"
+          onclick="getTo(this.id, window.location.href)"
+          >Services</a
+        >
+        <a
+          href="#about"
+          id="navAbout"
+          onclick="getTo(this.id, window.location.href)"
+          >About</a
+        >
+        <a
+          href="#work"
+          id="navWork"
+          onclick="getTo(this.id, window.location.href)"
+          >Work</a
+        >
+        <a
+          href="#contacts"
+          id="navContacts"
+          onclick="getTo(this.id, window.location.href)"
+          >Contacts</a
+        >
+      </nav>
+    </header>
+
+    <section id="home" class="home_bg parallax1" style="width: 100%">
+      <!-- <img src="Layer 2.png" style="width: 100%;"> -->
+      <div class="Rounded_Rectangle_7">
+        <p class="GOOD_IDEAS_comes_">GOOD IDEAS<br />comes</p>
+        <p class="FIRST_">FIRST!</p>
+        <!-- <p id="showScroll"></p> -->
+      </div>
+      <img src="arrow left.png" alt="Stanga" class="arrow_left" />
+      <img src="arrow right.png" alt="Dreapta" class="arrow_right" />
+      <div>
+        <img src="link slide.png" alt="Dots" class="link_slide1" />
+        <img src="link slide.png" alt="Dots" class="link_slide2" />
+        <img src="link slide.png" alt="Dots" class="link_slide3" />
+      </div>
+    </section>
+
+    <section id="services" class="services_bg parallax2" style="width: 100%">
+      <!-- <img src="Layer 3.png" style="width: 100%;"> -->
+      <div>
+        <h1 class="OUR_SERVICES">OUR SERVICES</h1>
+        <h3 class="_Cras_commodo_mattis_justo_nec_lobortis__Nam_ut">
+          Cras commodo mattis justo nec
+          <span style="opacity: 60%">lobortis</span>. Nam ut tellus lobortis,
+          ullamcorper massa sit amet
+        </h3>
+        <p class="Cras_suscipit_porttitor_porttitor__Morbi_sit_am1">
+          Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien.
+          Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim
+          diam, ullamcorper quis libero et, ultricies commodo est. Quisque at
+          ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet
+          lacus, eget laoreet erat posuere quis.
+        </p>
+      </div>
+      <div style="margin-top: 50px">
+        <span style="position: absolute; left: 14.5%" class="Block_bg">
+          <img src="lightball.png" class="lightball" />
+          <img class="bg" />
+          <img src="countur.png" class="countur" />
+          <h3 class="Researching">Researching</h3>
+          <p class="Praesent_interdum_blandit_quam__Asunt_in_anim_u">
+            Praesent interdum blandit quam. Asunt in anim uis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore.
+          </p>
+        </span>
+
+        <span style="position: absolute; left: 32.5%" class="Block_bg">
+          <img src="m wand.png" class="m_wand" />
+          <img class="bg" />
+          <img src="countur.png" class="countur" />
+          <h3 class="Researching">Design</h3>
+          <p class="Praesent_interdum_blandit_quam__Asunt_in_anim_u">
+            Praesent interdum blandit quam. Asunt in anim uis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore.
+          </p>
+        </span>
+
+        <span style="position: absolute; left: 50.5%" class="Block_bg">
+          <img src="giars.png" class="giars" />
+          <img class="bg" />
+          <img src="countur.png" class="countur" />
+          <h3 class="Researching">Development</h3>
+          <p class="Praesent_interdum_blandit_quam__Asunt_in_anim_u">
+            Praesent interdum blandit quam. Asunt in anim uis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore.
+          </p>
+        </span>
+
+        <span style="position: absolute; left: 68.5%" class="Block_bg">
+          <img src="rocket.png" class="rocket" />
+          <img class="bg" />
+          <img src="countur.png" class="countur" />
+          <h3 class="Researching">Launch</h3>
+          <p class="Praesent_interdum_blandit_quam__Asunt_in_anim_u">
+            Praesent interdum blandit quam. Asunt in anim uis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore.
+          </p>
+        </span>
+      </div>
+    </section>
+
+    <section id="about" class="about_bg parallax3" style="width: 100%">
+      <!-- <img src="Layer 6.png" style="width: 100%;"> -->
+      <div>
+        <h1 class="Who_we_are___what_we_do">Who we are & what we do</h1>
+        <p class="Cras_suscipit_porttitor_porttitor__Morbi_sit_am2">
+          Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien.
+          Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim
+          diam, ullamcorper quis libero et, ultricies commodo est. Quisque at
+          ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet
+          lacus, eget laoreet erat posuere quis.
+        </p>
+        <button class="m_team_bg" onclick="team()">Meet the team</button>
+      </div>
+
+      <div id="abt" style="margin-top: 50px; display: none">
+        <span
+          onmouseover="active_member(this)"
+          onmouseout="inactive_member(this)"
+          style="position: absolute; left: 14.5%"
+          class="Block_bg_about"
+        >
+          <img src="Ellipse 1.png" class="countur_about" />
+          <img src="User.png" class="User" />
+          <h3 class="about_names">Anton Petrov</h3>
+          <p class="about_fct">General Manager</p>
+          <img src="social.png" class="social" />
+        </span>
+
+        <span
+          onmouseover="active_member(this)"
+          onmouseout="inactive_member(this)"
+          style="position: absolute; left: 32.5%"
+          class="Block_bg_about"
+        >
+          <img src="Ellipse 1.png" class="countur_about" />
+          <img src="User.png" class="User" />
+          <h3 class="about_names">Kirl Donchev</h3>
+          <p class="about_fct">Design Master</p>
+          <img src="social.png" class="social" />
+        </span>
+
+        <span
+          onmouseover="active_member(this)"
+          onmouseout="inactive_member(this)"
+          style="position: absolute; left: 50.5%"
+          class="Block_bg_about"
+        >
+          <img src="Ellipse 1.png" class="countur_about" />
+          <img src="User.png" class="User" />
+          <h3 class="about_names">Ilian Bonev</h3>
+          <p class="about_fct">Developer Ninja</p>
+          <img src="social.png" class="social" />
+        </span>
+
+        <span
+          onmouseover="active_member(this)"
+          onmouseout="inactive_member(this)"
+          style="position: absolute; left: 68.5%"
+          class="Block_bg_about"
+        >
+          <img src="Ellipse 1.png" class="countur_about" />
+          <img src="User.png" class="User" />
+          <h3 class="about_names">Doni Stamov</h3>
+          <p class="about_fct">SEO guru</p>
+          <img src="social.png" class="social" />
+        </span>
+      </div>
+    </section>
+
+    <section id="work" class="work_bg parallax4" style="width: 100%">
+      <h3 class="our_work">Our Work</h3>
+      <p class="Cras_suscipit_porttitor_porttitor__Morbi_sit_am3">
+        Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien.
+        Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam,
+        ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae
+        justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget
+        laoreet erat posuere quis.
+      </p>
+      <nav class="work_navigation">
+        <span class="PORTFOLIO">PORTFOLIO</span>
+        <span class="All__Photography__Logo_design__Web_design"
+          >Web design</span
+        >
+        <span class="All__Photography__Logo_design__Web_design"
+          >Logo design</span
+        >
+        <span class="All__Photography__Logo_design__Web_design work_active"
+          >Photography</span
+        >
+        <span class="All__Photography__Logo_design__Web_design">All</span>
+      </nav>
+
+      <!-- <table class="work_table">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table> -->
+      <div class="gallery_wall">
+        <div class="gallery">
+          <img src="aenean a elit.png" width="600" height="400" />
+          <div class="desc">aenean a elit</div>
+        </div>
+
+        <div class="gallery">
+          <video width="100%" controls>
+            <source src="https://static.videezy.com/system/resources/previews/000/015/257/original/bokeh_05.mp4" type="video/mp4" />
+          </video>
+          <div class="desc">aliquam</div>
+        </div>
+
+        <div class="gallery">
+          <img src="suspendisse libero.png" width="600" height="400" />
+          <div class="desc">Suspendisse libero</div>
+        </div>
+
+        <div class="gallery">
+          <img src="maecenas fringilla.png" width="600" height="400" />
+          <div class="desc">Maecenas fringilla</div>
+        </div>
+
+        <div class="gallery">
+          <img src="donec vehicula.png" width="600" height="400" />
+          <div class="desc">Donec vehicula</div>
+        </div>
+
+        <div class="gallery">
+          <img src="ut et sapien.png" width="600" height="400" />
+          <div class="desc">Ut et sapien</div>
+        </div>
+
+        <div class="gallery">
+          <img src="quis malesuada.png" width="600" height="400" />
+          <div class="desc">quis malesuada</div>
+        </div>
+
+        <div class="gallery">
+          <img src="vestibulum ante.png" width="600" height="400" />
+          <div class="desc">Vestibulum ante</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="contacts_bg parallax5" style="width: 100%">
+      <h3 class="our_work">Contacts</h3>
+      <p class="Cras_suscipit_porttitor_porttitor__Morbi_sit_am3">
+        Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien.
+        Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam,
+        ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae
+        justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget
+        laoreet erat posuere quis.
+      </p>
+      <div>
+        <div class="info_contacts">
+          <h3 class="Address">Address</h3>
+          <h4 class="Anhiora_comunication">Acrostia</h4>
+          <p class="Sevenoaks_Rd_Sevenoa1">
+            Sevenoaks Rd<br />Sevenoaks TN14 7HR, UK
+          </p>
+          <div class="info">
+            <h4 class="_998_25698_569">Phone:</h4>
+            <p class="Sevenoaks_Rd_Sevenoa">+44 555 555 555<br /></p>
+            <h4 class="_998_25698_569">Fax:</h4>
+            <p class="Sevenoaks_Rd_Sevenoa">
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+44 556 555 555<br />
+            </p>
+            <h4 class="_998_25698_569">E-mail:</h4>
+            <p class="Sevenoaks_Rd_Sevenoa">info@acrostia.com<br /></p>
+            <h4 class="_998_25698_569">Skype:</h4>
+            <p class="Sevenoaks_Rd_Sevenoa">Ac0stia</p>
+          </div>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                width="200"
+                height="150"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=hollywood&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              >
+              </iframe>
+              <a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="qa">
+          <h3 class="Address">Ask a question</h3>
+          <form>
+            <input type="text" id="name" name="numepers" placeholder="Name">
+            <input type="text" id="email" name="emailpers" placeholder="Email">
+            <textarea name="commentpers" id="comment" rows="5" placeholder="Your question"></textarea>
+            <div style="text-align:center">
+              <input type="submit" value="SEND" align="center">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="Rectangle_3">
+        <img src="social_contacts.png" class="social_contacts" />
+      </div>
+    </section>
+  </body>
+</html>
